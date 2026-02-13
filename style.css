@@ -49,11 +49,13 @@ body{
 
 .profile {
     border: 1px solid blue;
-
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .profile-title {
-    margin-top: 100px;
     font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
     font-weight: 900;
     font-size: 3rem;
