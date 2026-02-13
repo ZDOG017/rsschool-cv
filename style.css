@@ -47,15 +47,22 @@ body{
     transform: scale(1.15);
 }
 
-.about{
+.profile {
     border: 1px solid blue;
 
 }
 
-.about-title {
+.profile-title {
     margin-top: 100px;
     font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
     font-weight: 900;
     font-size: 3rem;
     border: 1px solid yellow;
+}
+
+.profile-description {
+    margin-top: 20px;
+    font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    border: 1px solid purple;
 }
