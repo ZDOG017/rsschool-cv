@@ -353,6 +353,17 @@ body{
     margin-bottom: 8px;
 }
 
+.entry-details a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.entry-details a:hover {
+    color: #555;
+}
+
 .entry-details ul {
     padding-left: 20px;
     display: flex;
