@@ -107,6 +107,26 @@ body{
     color: #555;
 }
 
+.skills {
+    margin-top: 48px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    background-color: #f3f4f6;
+    color: #374151;
+}
+
 .experience,
 .education {
     margin-top: 48px;
@@ -119,7 +139,6 @@ body{
     margin-bottom: 16px;
 }
 
-/* Entry accordion */
 .entry {
     margin-bottom: 4px;
     border-radius: 8px;
