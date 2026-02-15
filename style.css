@@ -7,7 +7,6 @@ body {
     background-color: white;
     margin: 0 auto;
     max-width: 700px;
-    border: 1px solid red;
     padding: 20px;
 }
 
@@ -17,11 +16,9 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 50;
-    border: 1px solid blue;
 }
 
 .header-element-list {
-    border: 1px solid green;
     list-style: none;
     display: flex;
     gap: 16px;
@@ -49,7 +46,6 @@ body {
 }
 
 .profile {
-    border: 1px solid blue;
     display: flex;
     margin-top: 100px;
     justify-content: space-between;
@@ -60,18 +56,15 @@ body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 900;
     font-size: 3rem;
-    border: 1px solid yellow;
 }
 
 .profile-description {
     margin-top: 20px;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
-    border: 1px solid purple;
 }
 
 .profile-image img {
-    border: 1px solid orange;
     border-radius: 9999px;
     object-fit: cover;
 }
