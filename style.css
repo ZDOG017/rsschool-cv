@@ -127,6 +127,98 @@ body{
     color: #374151;
 }
 
+.projects {
+    margin-top: 48px;
+}
+
+.projects-subtitle {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #f3f4f6;
+    background-color: #fafafa;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+    background-color: #f3f4f6;
+    border-color: #e5e7eb;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.project-name {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover .project-links {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.project-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    transition: color 0.15s ease;
+}
+
+.project-links a:hover {
+    color: #000;
+}
+
+.project-description {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #6b7280;
+    margin-bottom: 12px;
+    flex-grow: 1;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.project-tags .skill-tag {
+    font-size: 0.625rem;
+    padding: 3px 8px;
+}
+
 .experience,
 .education {
     margin-top: 48px;
