@@ -379,3 +379,35 @@ body{
     color: #374151;
     font-weight: 600;
 }
+
+.english {
+    margin-top: 48px;
+}
+
+.english-level {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.english-description {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.english-description a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.english-description a:hover {
+    color: #555;
+}
