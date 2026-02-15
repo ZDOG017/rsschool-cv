@@ -296,6 +296,7 @@ body {
 }
 
 .entry-name {
+    display: block;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 0.875rem;
@@ -310,6 +311,7 @@ body {
 }
 
 .entry-role {
+    display: block;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 0.75rem;
     font-weight: 500;
