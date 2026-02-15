@@ -198,6 +198,26 @@ body{
     color: #000;
 }
 
+.code-examples {
+    margin-top: 48px;
+}
+
+.code-card {
+    margin: 0 8px 16px 8px;
+    padding: 16px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.code-block {
+    font-family: 'SF Mono', 'Fira Code', Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    color: #d4d4d4;
+    margin: 0;
+}
+
 .project-description {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 0.75rem;

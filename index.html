@@ -383,6 +383,51 @@ English Language (your English proficiency level, and if you had language practi
                 </div>
             </div>
         </section>
+
+        <section class="code-examples">
+            <h2 class="section-title">Code Examples</h2>
+            <details class="entry" open>
+                <summary class="entry-summary">
+                    <div class="entry-left">
+                        <div class="entry-info">
+                            <h3 class="entry-name">Number Expanded Form</h3>
+                            <p class="entry-role">56 &rarr; "5*10+6" &nbsp;|&nbsp; 999 &rarr; "9*100+9*10+9" &nbsp;|&nbsp; 10004 &rarr; "1*10000+4"</p>
+                        </div>
+                    </div>
+                    <div class="entry-right">
+                        <span class="entry-date">JavaScript</span>
+                        <svg class="entry-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                </summary>
+                <div class="code-card">
+                    <pre class="code-block">function simplify(number) {
+  if (number === 0) return "";
+
+  const numberAsString = String(number);
+  const parts = [];
+
+  for (let index = 0; index &lt; numberAsString.length; index++) {
+    const currentDigit = numberAsString[index];
+
+    if (currentDigit === "0") continue;
+
+    const power = numberAsString.length - index - 1;
+
+    if (power === 0) {
+      parts.push(currentDigit);
+    } else {
+      const value = Math.pow(10, power);
+      parts.push(currentDigit + "*" + value);
+    }
+  }
+
+  return parts.join("+");
+}</pre>
+                </div>
+            </details>
+        </section>
     </main>
     <footer>
         
