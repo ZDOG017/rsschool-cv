@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: white;
     margin: 0 auto;
     max-width: 700px;
@@ -11,7 +11,7 @@ body{
     padding: 20px;
 }
 
-.header-element{
+.header-element {
     position: fixed;
     top: 20px;
     left: 50%;
@@ -20,7 +20,7 @@ body{
     border: 1px solid blue;
 }
 
-.header-element-list{
+.header-element-list {
     border: 1px solid green;
     list-style: none;
     display: flex;
@@ -35,7 +35,7 @@ body{
         0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
-.header-element-list a{
+.header-element-list a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@ body{
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.header-element-list a:hover{
+.header-element-list a:hover {
     color: #000;
     transform: scale(1.15);
 }
@@ -57,7 +57,7 @@ body{
 }
 
 .profile-title {
-    font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 900;
     font-size: 3rem;
     border: 1px solid yellow;
@@ -65,12 +65,12 @@ body{
 
 .profile-description {
     margin-top: 20px;
-    font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
     border: 1px solid purple;
 }
 
-.profile-image img{
+.profile-image img {
     border: 1px solid orange;
     border-radius: 9999px;
     object-fit: cover;
