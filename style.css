@@ -146,6 +146,21 @@ body{
 
 .entry-left {
     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.entry-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background-color: #f3f4f6;
+}
+
+.entry-info {
+    display: flex;
     flex-direction: column;
     gap: 2px;
 }
